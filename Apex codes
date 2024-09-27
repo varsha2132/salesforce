@@ -1,4 +1,5 @@
 Apex classes:
+
 public class ConsumerRecord {
     public static void sendEmailNotification(List<consumer__c> con) {
         for (consumer__c c : con) {
@@ -18,3 +19,18 @@ public class ConsumerRecord {
         }
     }
 }
+
+
+Apex Triggers:
+
+trigger consumerTrigger on consumer__c (After insert) {
+    if(trigger.isAfter && trigger.isInsert) {
+        ConsumerRecord.sendEmailNotification(trigger.new);
+    }
+}
+
+
+Workflow :
+
+https://youtu.be/nzGIecvlU0g
+

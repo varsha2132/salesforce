@@ -4,22 +4,33 @@ Rice Mill CRM Application - Salesforce Project Documentation
 1. Project Overview
 I worked on developing a CRM application for a rice mill that simplifies operations by tracking daily rice production, sales, and revenue. The system sends daily reports to the mill owners, improving their visibility into the busines
 2. Features and Functionality
- Reporting and Dashboards I learned how to create dashboards that show key metrics like daily sales, revenue, and customer trends. This helped owners make better decisions.
-Rollup Summary Field I used rollup summary fields to automatically total rice quantities from suppliers, which simplified data tracking between related objects.
-Cross-Object Formula Field This feature helped me calculate payments by multiplying rice quantities with price per kilogram across different objects, saving time on manual calculations.
-Validation Rules I applied validation rules, particularly the IsBlank() formula, to ensure required fields were filled. This prevented incomplete or incorrect data from being entered.
-Permission Sets I set up role-based access, where owners could view all records while employers could only view their workers' records. This controlled data visibility based on user roles.
+-Reporting and Dashboards 
+I learned how to create dashboards that show key metrics like daily sales, revenue, and customer trends. This helped owners make better decisions.
+-Rollup Summary Field
+I used rollup summary fields to automatically total rice quantities from suppliers, which simplified data tracking between related objects.
+-Cross-Object Formula Field 
+This feature helped me calculate payments by multiplying rice quantities with price per kilogram across different objects, saving time on manual calculations.
+-Validation Rules
+I applied validation rules, particularly the IsBlank() formula, to ensure required fields were filled. This prevented incomplete or incorrect data from being entered.
+-Permission Sets 
+I set up role-based access, where owners could view all records while employers could only view their workers' records. This controlled data visibility based on user roles.
 3. Object and Relationship in Salesforce
 I learned about master-detail relationships and how to structure data between rice sales and suppliers, which helped in organizing the CRM efficiently.
 4. Key Features in Salesforce
-Formula Fields and Validation Rules These helped in automating calculations and ensuring data accuracy, saving time on manual input.
-Cross-Object Formula Fields I utilized these to perform calculations between objects, making the data more dynamic and efficient.
-Page Layouts I customized page layouts to ensure different users only saw the most relevant information, improving user experience.
-Rollup Summary Fields These fields allowed me to summarize data between related objects, giving users a quick view of important totals (like rice quantities)5.APEX:
+-Formula Fields and Validation Rules
+These helped in automating calculations and ensuring data accuracy, saving time on manual input.
+-Cross-Object Formula Fields 
+I utilized these to perform calculations between objects, making the data more dynamic and efficient.
+-Page Layouts 
+I customized page layouts to ensure different users only saw the most relevant information, improving user experience.
+-Rollup Summary Fields
+These fields allowed me to summarize data between related objects, giving users a quick view of important totals (like rice quantities)5.APEX:
 5. Reports and Dashboards
 I learned to create real-time reports that track daily performance, giving owners clear insights into rice sales and revenue.
 6.APEX:
-Apex Classes  I learned that Apex Classes are used to write custom logic in Salesforce, allowing for reusable code to automate complex tasks. I applied them to handle calculations for rice inventory, sales, and generating daily reports. This improved my ability to organize business logic for easier future modifications.
-Apex Triggers helped me automate actions based on data changes, such as updating inventory after sales or performing validations. I gained experience working with both **before** and **after triggers** to automate processes, reducing manual intervention and improving data accuracy.
+-Apex Classes 
+I learned that Apex Classes are used to write custom logic in Salesforce, allowing for reusable code to automate complex tasks. I applied them to handle calculations for rice inventory, sales, and generating daily reports. This improved my ability to organize business logic for easier future modifications.
+-Apex Triggers
+helped me automate actions based on data changes, such as updating inventory after sales or performing validations. I gained experience working with both **before** and **after triggers** to automate processes, reducing manual intervention and improving data accuracy.
 7.Conclusion
 This project enhanced my understanding of how Salesforce can streamline operations by automating tasks like data calculation and reporting. It also improved my skills in creating user-specific views and managing data visibility.
